@@ -1,0 +1,64 @@
+/* Estilo general de la ventana */
+.root {
+    -fx-background-color: #eeeeee;
+    -fx-font-family: Arial;
+}
+
+/* Texto del estado del juego */
+.estado {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 150px; 
+}
+
+/* Estado normal */
+.jugando {
+    -fx-text-fill: black;
+}
+
+/* Victoria */
+.victoria {
+    -fx-text-fill: green;
+}
+
+/* Derrota */
+.derrota {
+    -fx-text-fill: red;
+}
+
+
+/* Casillas del tablero */
+.button.casilla {
+    -fx-background-color: #cccccc;
+    -fx-border-color: #888888;
+    -fx-font-size: 16px;
+}
+
+/* Cuando pasamos el ratón por encima */
+.button.casilla:hover {
+    -fx-background-color: #dddddd;
+}
+
+
+.button.boton {
+    -fx-background-color: #ccccbb;
+    -fx-border-color: #888888;
+    -fx-font-size: 16px;
+    -fx-pref-width: 100px; 
+}
+
+.button.boton:hover {
+    -fx-background-color: #dddddd;
+}
+
+/* Cuando la casilla ya está abierta */
+.button.abierta {
+    -fx-background-color: #ffffff;
+}
+
+/* Cuando la casilla ya está abierta */
+.button.mina {
+    -fx-background-color: #FF0000;
+}
+
+
